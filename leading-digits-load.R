@@ -13,7 +13,7 @@ start_time <- Sys.time()
 print(paste("Process started at ", start_time))
 
 # Load sample from file (specify path)
-mydata_full <- read.csv("C:/Users/rsowby/Desktop/Current Files/Research/2020 Smart Meter Digits/Xylem data/sample.csv")
+mydata_full <- read.csv("_________________")
 
 # Copy data
 mydata <- mydata_full
@@ -35,7 +35,7 @@ mydata <- mydata[mydata$read > 0, ]
 print(paste("mydata is now",length(mydata$read),"records"))
 
 # Load meter numbers from separate file if needed
-meter <- read.csv("C:/Users/rsowby/Desktop/Current Files/Research/2020 Smart Meter Digits/Xylem data/meter.csv")
+meter <- read.csv("____________________________")
 
 # Join meter to sample
 mydata <- plyr::join(mydata, meter, by = "meter", type = "left", match = "all")
@@ -51,7 +51,7 @@ mydata <- mydata[ -c(4)]
 mydata$fd <- substr(mydata$read, 1, 1)
 
 # Write to CSV file
-write.csv(mydata, file = "C:/Users/rsowby/Desktop/Current Files/Research/2020 Smart Meter Digits/Xylem data/v3-18.csv")
+write.csv(mydata, file = "________________________")
 
 end_time <- Sys.time()
 print("Process complete.")
