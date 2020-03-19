@@ -12,6 +12,7 @@
 cat("\014")
 
 # PART 1: LOAD DATA #####################################################################
+# Note: Run other script first to load raw data into dataframe
 
 # Save start time
 start_time <- Sys.time()
@@ -19,10 +20,10 @@ mytime <- Sys.time()
 print(paste("Process started at", mytime))
 
 # File to read (input)
-readfile <- "C:/Users/rsowby/Desktop/Current Files/Research/2020 Smart Meter Digits/Xylem data/v3-18.csv"
-ksfile <- "C:/Users/rsowby/Desktop/Current Files/Research/2020 Smart Meter Digits/R/ks-crit-values.csv"
+readfile <- "_________________"
+ksfile <- "_________________/ks-crit-values.csv"
 # File to write (ouput). Results will be APPENDED. Make sure file does not already exist.
-writefile <- "C:/Users/rsowby/Desktop/Current Files/Research/2020 Smart Meter Digits/R/fulltest-L.csv"
+writefile <- "___________________"
 
 # Load data saved previously into data frame df
 print(paste("Loading data from ", readfile , "..."))
