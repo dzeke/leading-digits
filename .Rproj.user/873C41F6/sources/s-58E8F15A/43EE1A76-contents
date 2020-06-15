@@ -19,10 +19,17 @@ For more on the claims of leading digits and water use, see
 Sowby, R. B. (2018). "Conformance of Public Water Use Data to Benford's Law." Journal - AWWA, 110(12), E52-E59. https://awwa.onlinelibrary.wiley.com/doi/abs/10.1002/awwa.1161.
 
 
-```{r cars, echo=FALSE}
+```{r, echo=FALSE}
 #### Uniform 0 - 10
 dist <- "Uniform"
 nSamples <- 10000
+
+```
+Number of Random Samples per Plot = 
+`r format(nSamples,digits=0)`
+
+```{r cars, echo=FALSE}
+
 nLow <- 0  #lower bound
 nUp <- 10 # upper bound
 dist <- "Uniform (runif)"
