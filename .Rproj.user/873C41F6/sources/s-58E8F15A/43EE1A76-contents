@@ -1,5 +1,5 @@
 ---
-title: "Experiments with Leading Digits"
+title: "Random Experiments with Leading Digits"
 author: "David E. Rosenberg"
 date: "June 14, 2020"
 output: word_document
@@ -11,9 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-This is an R Markdown document to test the leading digits principle (numbers disproportionately have leading digits of 1) on some randomly generated data. The R-function used to randomly generate the data is listed in title of each histogram. 
+This is an R Markdown document to test the leading digits principle (numbers disproportionately have first non-zero digits of 1) on some randomly generated data. The R-function used to randomly generate the data is listed in title of each histogram. 
 
-This code is accessible at: Rosenberg (2020). 
+This code is accessible at: Rosenberg (2020). https://github.com/dzeke/leading-digits
 
 For more on the claims of leading digits and water use, see
 Sowby, R. B. (2018). "Conformance of Public Water Use Data to Benford's Law." Journal - AWWA, 110(12), E52-E59. https://awwa.onlinelibrary.wiley.com/doi/abs/10.1002/awwa.1161.

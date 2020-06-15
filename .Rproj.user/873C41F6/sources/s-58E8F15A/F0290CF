@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592192837735.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1658253280",
+    "id" : "F0290CF",
+    "lastKnownWriteTime" : 1592193167,
+    "last_content_update" : 1592193167217,
+    "path" : "C:/Rosenberg/Work/USU/Research/WaterDemand/LeadingDigit/leading-digits/leading-digits-load-DER.Rmd",
+    "project_path" : "leading-digits-load-DER.Rmd",
+    "properties" : {
+        "cursorPosition" : "21,19",
+        "scrollLine" : "14",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
