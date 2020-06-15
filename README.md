@@ -23,8 +23,8 @@ For more information about leading digits and water use and their claims, see So
 ## Directions to Use
 1. Download and install R/R Studio
 2. Create a new project in the local folder where this repository is downloaded
-3. Open and Run files 6 and 8. This will generate files 7 and 9
-4. Open file 
+3. Open and knit files 6 and 8. This will generate files 7 and 9
+4. Alternatively, run files 5 and 8. 
 
 ## References
 1. Attaallah, N. A. M. (2018). "Demand Disaggregation for Non-Residential Water Users in the City of Logan, Utah, USA," Utah State University, Logan, Utah. https://digitalcommons.usu.edu/etd/7401.
